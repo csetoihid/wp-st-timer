@@ -1,0 +1,66 @@
+/*Style for Timer*/ 
+	#countDownContent .heading{
+		background-color:#FE0000;
+		float: left;
+		width: 100%;
+		height: 70px;
+	}
+
+	.timeCount{
+		height: 26px;
+		background: #fff;
+		font-size: 21px;
+		line-height: 27px;
+		text-align: center;
+		border-radius: 2px;
+	}
+	.timeHead{
+		background: #731B0F;
+		height: 17px;
+		margin-bottom: 4px;
+		margin-top: 3px;
+		border-radius: 5px;
+		color: #fff;
+		text-align: center;
+		line-height: 15px;
+		font-size: 11px;
+	}
+    .timeBoxPartial{
+	width: 30%;
+	float: left;
+	margin: 0 10px 0 10px;
+    }
+    .timeOffer{
+		color: #fff;
+		font-size: 23px;
+		line-height: 65px;
+		display: block;
+		font-weight: bold;   	
+    }
+    .paymentBtn{
+		width: 100%;
+		background: url('images/paymentSpecialBtn.png') no-repeat;
+		color: #000;
+		float: left;
+		text-align: center;
+		border-radius: 5px;
+		margin-top: 6px;
+		height: 65px;
+    }
+    .timerContainer{
+
+		background: url('../images/timerbg.jpg');
+		height: 100%;
+		padding: 5px;
+    }
+    .timinghead{
+    	font-size: 11px;
+    	line-height: 12px;
+		float: left;
+		margin: 5px;
+		list-style: none;
+		width: 20%;    	
+    }
+    #loading {
+    position: absolute; width: 100%; height: 100%; background: url('../images/loader.gif') no-repeat center center;
+}
